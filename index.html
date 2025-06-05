@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Match Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🍒 Memory Match Game</h1>
+    <div id="game-board"></div>
+    <p>Attempts: <span id="attempts">0</span></p>
+    <div id="message"></div>
+    <button id="restart">🔄 Restart Game</button>
+  </div>
+
+  <!-- Sound Effects -->
+  <audio id="flip-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-game-click-1114.mp3"></audio>
+  <audio id="match-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-achievement-bell-600.mp3"></audio>
+  <audio id="no-match-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-wrong-answer-bass-buzzer-948.mp3"></audio>
+  <audio id="win-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-winning-notification-2018.mp3"></audio>
+</body>
+<script src="index.js"></script>
+</html>
